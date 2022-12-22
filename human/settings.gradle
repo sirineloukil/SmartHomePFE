@@ -1,0 +1,8 @@
+include 'modules:core-models'
+include 'modules:core-services'
+include 'modules:core-exceptions'
+include 'modules:core-configurations'
+include 'modules:core-events'
+
+
+rootProject.name = 'human'

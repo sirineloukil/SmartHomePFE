@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: human
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URI}
+      fail-fast: true
+      profile: ${ACTIVE_PROFILE}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+keycloak:
+  principal-attribute: preferred_username
+  auth-server-url: ${AUTH_SERVER_URI}
+  realm: ${REALM}
+  resource: ${CLIENT}
+  public-client: true
