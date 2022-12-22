@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.asm.smarthome.coreconfigurations.ServicesConfiguration,\
+com.asm.smarthome.coreconfigurations.MqttConfiguration
