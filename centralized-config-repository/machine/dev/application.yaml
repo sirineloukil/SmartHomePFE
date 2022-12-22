@@ -1,0 +1,4 @@
+server:
+  port: 8083
+app:
+  hello: Hello from machine 20

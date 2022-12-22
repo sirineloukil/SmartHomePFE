@@ -1,0 +1,5 @@
+server:
+  port: 8084
+app:
+  hello: Hello from admin 20
+

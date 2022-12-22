@@ -1,0 +1,4 @@
+common:
+    all: true
+app:
+  hello: From common all

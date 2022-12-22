@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+    cloud:
+      gateway:
+        routes:
+        - id: human
+          uri: lb://human
+          predicates:
+            - Path=/human/**
+        - id: machine
+          uri: lb://machine
+          predicates:
+            - Path=/machine/**

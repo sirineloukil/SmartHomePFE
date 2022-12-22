@@ -1,0 +1,7 @@
+server:
+  port: 8761
+spring:
+  boot:
+    admin:
+      client: 
+        url: http://localhost:9001
