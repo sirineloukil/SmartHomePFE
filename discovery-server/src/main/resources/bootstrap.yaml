@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: discovery
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URI}
+      fail-fast: true
+      profile: ${ACTIVE_PROFILE}
+
+
