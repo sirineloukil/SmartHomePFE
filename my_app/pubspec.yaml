@@ -1,0 +1,63 @@
+name: my_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter_localizations: # Add this line
+    sdk: flutter         # Add this line
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  syncfusion_flutter_charts: ^19.1.57+1
+  flutter_i18n: ^0.32.4
+  sleek_circular_slider: ^2.0.1
+  get: 4.6.5
+  retrofit: '>=3.0.0 <4.0.0'
+  logger: any  #for logging purpose
+  dio: ^4.0.6
+  flutter_local_notifications: ^9.6.0
+  timezone: ^0.8.0
+  rxdart: ^0.27.4
+  cached_network_image: ^3.2.1
+  flutter_neumorphic: ^3.2.0
+  flutter_screenutil: ^5.5.3+2
+  flutter_riverpod: ^0.14.0+3
+  lottie: ^1.4.2
+  flutter:
+    sdk: flutter
+  mongo_dart: ^0.7.4+1
+  chartjs: ^0.6.0
+  time_range_picker: ^2.2.0
+  shared_preferences: ^2.0.13
+  time_range: ^1.0.3
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  retrofit_generator: '>=4.0.0 <5.0.0'
+  build_runner:
+  json_serializable: '>4.4.0'
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+     - assets/images/smarthome.png
+     - assets/images/user.png
+     - assets/images/user_drawer.png
+     - assets/images/cpu.png
+     - assets/images/smart-door.png
+     - assets/images/notifications.png
+     - assets/images/translation.png
+     - assets/images/smart-home.png
+     - assets/images/icons8-living-room-64.png
+     - assets/images/graphic-card.png
+     - assets/images/living-room.png
