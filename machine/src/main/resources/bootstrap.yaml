@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: human
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URI}
+      fail-fast: true
+      profile: ${ACTIVE_PROFILE}
+management:
+  endpoint:
+    web:
+      exposure:
+        include: refresh
+

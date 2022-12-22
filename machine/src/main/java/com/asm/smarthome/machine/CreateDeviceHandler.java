@@ -1,0 +1,17 @@
+package com.asm.smarthome.machine;
+
+import com.asm.smarthome.coreconfigurations.MessageTopicMapping;
+import com.asm.smarthome.coremodels.model.Device;
+import org.springframework.stereotype.Component;
+
+    @MessageTopicMapping("ouhgsdjlgnhl/smarthome")
+    @Component
+    public class CreateDeviceHandler {
+
+        @MessageTopicMapping("create")
+        public void create(Device create) {
+            System.out.println(String.format("create %s", create.getRef()));
+        }
+
+
+    }

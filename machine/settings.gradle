@@ -1,0 +1,7 @@
+include 'modules:core-models'
+include 'modules:core-services'
+include 'modules:core-exceptions'
+include 'modules:core-events'
+include 'modules:core-configurations'
+
+rootProject.name = 'machine'
